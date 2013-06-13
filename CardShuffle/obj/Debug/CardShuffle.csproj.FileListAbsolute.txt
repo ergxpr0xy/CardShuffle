@@ -1,0 +1,6 @@
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\bin\Debug\CardShuffle.exe.config
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\bin\Debug\CardShuffle.exe
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\bin\Debug\CardShuffle.pdb
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\obj\Debug\CardShuffle.csprojResolveAssemblyReference.cache
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\obj\Debug\CardShuffle.exe
+c:\users\jjohnson\documents\visual studio 2012\Projects\CardShuffle\CardShuffle\obj\Debug\CardShuffle.pdb
