@@ -27,31 +27,31 @@ namespace CardShuffle
                 foreach (string face in faces)
                 {
                     orderedDeck.Add(face + " Of " + suite);
-                   //Console.WriteLine("Adding "  + face + " Of " + suite);                 
+                   Console.WriteLine("Adding "  + face + " Of " + suite);                 
                 }                                  
             }
 
-            //Console.WriteLine();
-            //Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
-            //for (int i = 51; i >= 0; --i)
-            //{
-            //    randomValue = random.Next(0, i+1);
-            //  //  randomValue = randomValue % orderedDeck.Count;
-            //    System.Threading.Thread.Sleep(100);
-            //    Console.WriteLine(orderedDeck[randomValue]);
-            //    orderedDeck.Remove(orderedDeck[randomValue]);
-            //}
-
-            int end = 52;
-            for (int j = 0; j < 52; ++j)
+            for (int i = 51; i >= 0; --i)
             {
+                randomValue = random.Next(0, i + 1);
+                //randomValue = randomValue % orderedDeck.Count;
                 System.Threading.Thread.Sleep(100);
-                randomValue = random.Next(0, end);
-                Console.WriteLine("[" + j + "] " + orderedDeck[randomValue]);
+                Console.WriteLine(orderedDeck[randomValue]);
                 orderedDeck.Remove(orderedDeck[randomValue]);
-                --end;
             }
+
+            //int end = 52;
+            //for (int j = 0; j < 52; ++j)
+            //{
+            //    System.Threading.Thread.Sleep(100);
+            //    randomValue = random.Next(0, end);
+            //    Console.WriteLine("[" + j + "] " + orderedDeck[randomValue]);
+            //    orderedDeck.Remove(orderedDeck[randomValue]);
+            //    --end;
+            //}
             
             Console.Read();
         }         
